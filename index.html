@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SMIT Eportal</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="icon" href="Images/fav.png" type="image/icon type">
+    </head>
+    <body>
+        <div>
+            <center>
+                <h1 style="background-color: blueviolet;">SMIT Learning Managnment System</h1>
+            </center>
+            <img class="h1" src="./Images/lms.jpg" alt="lms" width="400px" height="450px"> 
+        </div>
+        <div class="styling">
+            <center><h1>Login Form</h1></center>
+            <center><table>
+                <div>
+                    <tr>
+                        <td> 
+                            <p>Email:
+                                <input type="text" id="email" name="email" placeholder="Enter Email" size="20" maxlength="30" required>
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> 
+                            <p id="p" >Passowrd:
+                                <input type="password" id="password" name="password" placeholder="Enter Password" size="17" maxlength="15" required>
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- <center><a onclick="sig_in()" href=""><button>Login</button></a></center> -->
+                            <center><button onclick="sig_in()">Login</button></center>
+                        </td>
+                    </tr>
+                </div>
+            </table></center>
+            <center>
+                <table>
+                    <div>
+                        <tr>
+                            <td>
+                                <center><a href="./Signup.html"><button>Create account</button></a></center>
+                            </td>
+                        </tr>
+                    </div>
+                </table>
+            </center>
+        </div>
+    </body>
+
+    <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-database-compat.js"></script>
+
+    <script src="./app.js"></script>
+</html>

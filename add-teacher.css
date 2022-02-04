@@ -1,0 +1,64 @@
+a
+{
+    text-align: center;
+    margin-right: -50px;
+}
+body
+{
+    background-color:rgba(0,255,0,0.3);;
+}
+button
+{
+    color: skyblue;
+    font-size: 20px;
+    font-weight: double;
+    border: 5px solid rgb(55, 0, 128);
+    border-radius: 20px;
+}
+table
+{
+    background-color: rgb(230, 161, 15);
+    border: 5px solid rgb(20, 19, 20);
+    font-size: 100%;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 20px;
+}
+input
+{
+    font-size: 120%;
+    border:3px solid black;
+    border-radius: 25px;
+}
+#o1
+{
+    color:rgb(6, 65, 99);
+}
+#email
+{
+    background-image: url('./Images/emil.png');
+    background-size: 25px;
+    background-repeat: no-repeat; 
+    padding-left: 25px;
+}
+#password
+{
+    background-image: url('./Images/password.png');
+    background-size: 25px;
+    background-repeat: no-repeat; 
+    padding-left: 25px;
+}   
+#p
+{
+    background-image: url('images/p.png');
+    background-size: 25px;
+    background-repeat: no-repeat; 
+    padding-left: 25px;
+}
+#p1
+{
+    background-image: url('images/p.png');
+    background-size: 25px;
+    background-repeat: no-repeat; 
+    padding-left: 25px;
+}

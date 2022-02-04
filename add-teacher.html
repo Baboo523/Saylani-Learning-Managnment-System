@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add teacher</title>
+    <link rel="stylesheet" href="add-teacher.css">
+    <link rel="icon" href="Images/fav.png" type="image/icon type">
+    <!-- <script src=","></script> -->
+</head>
+<body>
+    <center>
+        <h1><b>Add new teacher</b></h1>
+        <table>
+            <div>
+                <tr id="01">
+                    <td><label>First Name:</label></td>
+                    <td><input type="text" id="p" name="Firstname" placeholder="Enter FirstName" size="20"required="required"> </td>
+                </tr>
+                <!-- <tr id="02">
+                    <td><label>Last Name:</label></td>
+                    <td><input type="text" id="p1" name="lastname" placeholder="Enter LastName" size="20"required="required"> </td>
+                </tr> -->
+                <tr>
+                    <td><label>Gender:</label></td>
+                    <td>
+                           <input required="required" type="radio" name="gender" value="male"/> Male
+                          <input required="required" type="radio" name="gender" value="female"/>Female
+                          <input required="required" type="radio" name="gender" value="other"/>Other
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Email:</label></td>
+                    <td><input type="text" id="email" name="email" placeholder="Enter Email" size="20" maxlength="30" required="required"/></td>
+                </tr>
+                <tr>
+                    <td><label>Password:</label></td>
+                    <td><input type="password" id="password" name="password" placeholder="*********" size="20" maxlength="20" required="required" /></td>
+                </tr>
+                <!-- <tr>
+                    <td>
+                        <label for="cars">Choose any one:</label> <br>
+                        <select name="people" id="Person">
+                            <option value=""></option>
+                            <option value="Student">Student</option>
+                            <option value="teacher">Teacher</option>
+                        </select>
+                    </td>
+                </tr> -->
+                <tr>
+                    <td>
+                        <button  onclick="sig_up()">Add teacher</button>
+                    </td>
+                </tr>
+            </div>
+        </table>
+    </center>
+    <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-database-compat.js"></script>
+<script src="./add-teacher.js"></script>
+
+</body>
+
+</html>
